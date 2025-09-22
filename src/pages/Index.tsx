@@ -11,32 +11,32 @@ const Index: React.FC = () => {
     {
       id: 'modern',
       title: 'Современный',
-      description: 'Актуальные тренды в дизайне, инновационные материалы и передовые технологии производства.',
-      features: ['Минималистичный дизайн', 'Современные материалы', 'Актуальные тренды']
+      description: 'Основанный на последних трендах конструктивных и цветовых решений. Вкладывайте в современный комфорт, чтобы не жалеть о потраченных деньгах на устаревшие решения.',
+      features: ['Актуальные профили ручек Gola', 'Матовые эмали и шпонированные панели', 'Проектирование ниш с точностью до миллиметра']
     },
     {
       id: 'ergonomic',
       title: 'Эргономичный',
-      description: 'Каждая деталь продумана для максимального комфорта и здоровья позвоночника.',
-      features: ['Правильная поддержка', 'Анатомические формы', 'Комфорт в использовании']
+      description: 'Проработка эргономики на основе вашей индивидуальной антропометрии и привычек. Перестанете терять вещи благодаря интуитивно понятной организации пространства.',
+      features: ['Точные замеры под ваш рост', 'Фурнитура полного выдвижения', 'Система хранения под ваши привычки']
     },
     {
       id: 'tech',
       title: 'Технологичный',
-      description: 'Современное производство с точностью до миллиметра и контролем качества.',
-      features: ['Высокоточное производство', 'Контроль качества', 'Инновационные решения']
+      description: 'Забудете о вздутых столешницах и поврежденном корпусе даже после протечки воды. Станки ЧПУ гарантируют идеальную геометрию и исключают ошибки сборки.',
+      features: ['Производство на станках ЧПУ', 'Согласование техдокументации', 'Защита от воды Kleiberit PUR 555.6']
     },
     {
       id: 'practical',
       title: 'Практичный',
-      description: 'Функциональность на первом месте - каждый элемент имеет практическое назначение.',
-      features: ['Функциональность', 'Долговечность', 'Удобство в уходе']
+      description: 'Мебель из материалов EGGER не выцветает, фасады не выгорают, фурнитура не подвержена царапинам. Сохраняет первозданный вид долгие годы.',
+      features: ['Материалы EGGER', 'Высокие эксплуатационные характеристики', 'Обработка составом PUR']
     },
     {
       id: 'safe',
       title: 'Безопасный',
-      description: 'Экологически чистые материалы и безопасные покрытия для всей семьи.',
-      features: ['Экологичные материалы', 'Безопасные покрытия', 'Сертифицированное качество']
+      description: 'Будете спокойны за ребенка и домашних питомцев. Крепление "антиопрокидывание", система soft-close, скрытый монтаж подсветки.',
+      features: ['Система "антиопрокидывание"', 'Фурнитура с мягким закрытием', 'Скругленные края столешниц']
     }
   ];
 
@@ -62,12 +62,14 @@ const Index: React.FC = () => {
   ];
 
   const clientTraits = [
-    'Цените качество выше количества',
-    'Понимаете разницу между ценой и стоимостью',
-    'Выбираете вещи, которые служат десятилетиями',
-    'Предпочитаете функциональность показной роскоши',
-    'Заботитесь о здоровье и комфорте семьи',
-    'Цените время и не любите заниматься ремонтом мебели'
+    'Цените качество выше количества — инвестируете в долгосрочный комфорт',
+    'Понимаете разницу между ценой и стоимостью — ищете разумную инвестицию',
+    'Выбираете вещи, которые служат десятилетиями — против культуры одноразовости',
+    'Предпочитаете функциональность показной роскоши — практичность превыше всего',
+    'Заботитесь о здоровье и комфорте семьи — безопасность как приоритет',
+    'Цените время и хотите предсказуемый результат без стресса и переделок',
+    'Строите карьеру в 28-45 лет — активно создаете качественную жизнь',
+    'Владеете недвижимостью — видите мебель как инфраструктуру своей жизни'
   ];
 
   return (
@@ -77,7 +79,7 @@ const Index: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="font-montserrat font-bold text-2xl text-charcoal">
-              COLESTE
+              AUTEN
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#philosophy" className="text-charcoal hover:text-warmwood transition-colors">Философия</a>
@@ -101,9 +103,9 @@ const Index: React.FC = () => {
                 <span className="text-warmwood"> философия</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Мы не просто производим мебель. Мы создаем систему, которая 
-                <strong className="text-charcoal"> улучшает качество жизни</strong> наших клиентов 
-                каждый день.
+                Мы не просто производим мебель. Мы <strong className="text-charcoal">системно улучшаем качество жизни</strong> 
+                через организацию вашего пространства. Создаем достойную среду обитания — 
+                <strong className="text-warmwood">основу для развития, комфорта и спокойствия</strong>.
               </p>
               <div className="flex space-x-4">
                 <Button className="bg-warmwood hover:bg-charcoal text-white px-8 py-3">
@@ -137,8 +139,16 @@ const Index: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="font-montserrat text-4xl font-bold text-charcoal mb-8">
-                Мы создаем мебель для Вас, если вы...
+                Мы создаем мебель для Вас, если вы — «Осознанный Прагматик»
               </h2>
+              <div className="mb-6 p-4 bg-gradient-to-r from-warmwood/10 to-wood/10 rounded-lg border-l-4 border-warmwood">
+                <p className="text-lg text-charcoal font-semibold italic">
+                  "Я строю жизнь, которую заслуживаю"
+                </p>
+                <p className="text-gray-600 mt-2">
+                  Вы не ждете лучшего будущего — создаете его через обдуманные, прагматичные решения
+                </p>
+              </div>
               <div className="space-y-4">
                 {clientTraits.map((trait, index) => (
                   <div key={index} className="flex items-start space-x-4 animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
@@ -152,7 +162,7 @@ const Index: React.FC = () => {
               <div className="mt-8 p-6 bg-cream rounded-lg">
                 <p className="text-lg text-charcoal font-medium">
                   <Icon name="Quote" className="inline mr-2 text-warmwood" size={20} />
-                  Если вы узнали себя хотя бы в 3 пунктах — вы наш человек!
+                  Узнали себя? Тогда вы — наш "Осознанный Прагматик". Мы говорим на одном языке!
                 </p>
               </div>
             </div>
@@ -175,7 +185,7 @@ const Index: React.FC = () => {
               Наши 5 качеств
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Каждое изделие воплощает нашу идеологию через конкретные решения и инновации
+              Идеология осознанного потребления в 5 качествах: Современный, Эргономичный, Технологичный, Практичный, Безопасный
             </p>
           </div>
 
@@ -238,7 +248,8 @@ const Index: React.FC = () => {
               Наша команда — эксперты, а не продавцы
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Люди, которые создают мебель с душой и профессиональной экспертизой
+              Мы ищем сотрудников, для которых проектирование — не работа, а призвание. 
+              <strong className="text-charcoal">Преданность делу, а не плану продаж</strong>
             </p>
           </div>
 
@@ -275,10 +286,11 @@ const Index: React.FC = () => {
       <section className="py-20 bg-charcoal text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-montserrat text-4xl font-bold mb-6">
-            Готовы познакомиться с нашей мебелью?
+            Готовы инвестировать в свое спокойствие?
           </h2>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Приглашаем вас в наш шоурум или закажите персональную консультацию с нашими экспертами
+            Вы платите не за метры ДСП — вы платите за <strong className="text-white">гарантированный результат, предсказуемый процесс и долгосрочный комфорт</strong>. 
+            Приглашаем на консультацию с экспертами.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-warmwood hover:bg-wood text-white px-8 py-4">
@@ -299,10 +311,10 @@ const Index: React.FC = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="font-montserrat font-bold text-2xl text-charcoal mb-4">
-                COLESTE
+                AUTEN
               </div>
               <p className="text-gray-600">
-                Мебель для осознанных прагматиков
+                Системно улучшаем качество жизни через организацию пространства
               </p>
             </div>
             <div>
@@ -316,9 +328,9 @@ const Index: React.FC = () => {
             <div>
               <h3 className="font-montserrat font-semibold text-charcoal mb-4">Контакты</h3>
               <div className="space-y-2 text-gray-600">
-                <p>+7 (495) 123-45-67</p>
-                <p>info@coleste.ru</p>
-                <p>Москва, ул. Примерная, 1</p>
+                <p>+7 (3452) 123-45-67</p>
+                <p>info@auten.ru</p>
+                <p>Тюмень, ул. Производственная, 1</p>
               </div>
             </div>
             <div>
